@@ -1,4 +1,4 @@
-#leetcode 146 hash cache
+#leetcode 146 lru cache
 
 #combine hashtable and lru
 #we store "lru node address" and "key" in hashtable
