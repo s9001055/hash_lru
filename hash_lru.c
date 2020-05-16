@@ -65,6 +65,9 @@ void moveToMru(int32_t data)
 {
 	struct linkNode *keyNode = head;
 	struct linkNode *prevNode = head;
+	if (keyNode -> data == data)
+		return;
+	
 	while (keyNode != NULL){
 		if (keyNode -> data == data){
 			prevNode -> next = keyNode -> next;
